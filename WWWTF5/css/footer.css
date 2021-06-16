@@ -1,0 +1,235 @@
+.rec_124{
+    margin: 100px 0 50px 0;
+}
+.rec_124 span{
+    display: block;
+    width: 100%;
+    height: 1px; 
+    background: rgba(0, 0, 0, 0.1);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.legal_technology{
+    flex: 0 1 255px;
+}
+.legal_technology_h5 h5{
+    font-size: 20px;
+    line-height: 30px;
+}
+.legal_technology_unp{
+    margin-top: 70px;
+}
+.unp1{
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 15px;
+}
+.unp_2{
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.legal_technology_rating{
+    margin-top: 10px;
+}
+.legal_technology_massangers{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.legal_technology_massangers a :hover{
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+}
+.legal_technology_map{
+    margin: 50px 0 30px 0;
+}
+.legal_technology_map a,
+.legal_technology_polit a{
+    font-family: 'Lato',sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.75);
+    margin-right: 15px;
+}
+.legal_technology_map a:hover,
+.legal_technology_polit a:hover{
+    color: #DEC377;
+    transition-duration: 0.2s;
+}
+.legal_technology_map img{
+    margin-top: 2.5px;
+}
+.legal_technology_polit img{
+    margin-top: -5.5px;
+}
+.our_offices{
+    flex: 0 1 640px;
+}
+.our_offices_header{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+}
+.our_offices_line span{
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-top: 5px;
+    background: rgba(0, 0, 0, 0.1)
+}
+.our_offices_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.contacts_minsk{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.75);
+}
+.minsk_phone{
+    margin-top: 20px;
+    font-family: 'Lato',sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px; 
+}
+.minsk_phone a{
+    color: rgba(0, 0, 0, 0.8);
+}
+.minsk_phone a:hover{
+    color: #000;
+    font-weight: 500;
+    transition-duration: 0.2s;
+}
+.minsk_addres{
+    margin-top: 20px;
+    line-height: 20px;
+}
+.minsk_addres span{
+    font-weight: 500;
+    font-size: 13px;
+}
+.minsk_addres p{
+    font-size: 13px;
+}
+.telephone_communication span{
+    font-family: 'Commissioner', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.75)
+}
+.telephone_communication a{
+    padding: 20px 0 0 15px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.telephone_communication a:hover{
+    color: #000;
+    font-weight: 500;
+    transition-duration: 0.2s;
+}
+.minsk_mail{
+    margin-top: 20px;
+}
+.minsk_mail a{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;   
+    color: rgba(0, 0, 0, 0.8)
+}
+.minsk_mail a:hover{
+    color: #000;
+    font-weight: 500;
+    transition-duration: 0.2s;
+    font-size: 14px;
+}
+.department_city{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.75); 
+}
+.department_city_addres{
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.department_city_street{
+    font-family: 'Lato',sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 5px;
+}
+.department_city_mail a{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;   
+    color: rgba(0, 0, 0, 0.8);
+}
+.department_city_mail a:hover{
+    color: #000;
+    font-weight: 500;
+    transition-duration: 0.2s;
+    font-size: 14px;
+}
+.department_city_container{
+    margin-bottom: 35px;
+}
+.time_job_line span{
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-top: 5px;
+    background: rgba(0, 0, 0, 0.1)
+}
+.time_job_head{
+    font-family: 'Lato',sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+.time_job_container{
+    margin-top: 30px;
+}
+.time_job_reception{
+    font-size: 13px;
+    font-weight: 500;   
+    color: rgba(0, 0, 0, 0.75);
+}
+.time_job_text{
+    margin-top: 5px;
+    font-family: 'Lato',sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.footer_bottom{
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.footer_bottom_text{
+    font-family: 'Lato',sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}

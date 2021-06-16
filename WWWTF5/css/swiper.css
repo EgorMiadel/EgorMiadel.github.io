@@ -1,0 +1,62 @@
+/*----------swiper_1----------*/
+.swiper-container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.swiper-slide {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper_btn_coctainer{
+    display: flex;
+    justify-content: space-between; 
+    margin: 0 auto;
+    max-width: 1170px;
+    margin-top: 90px;
+}
+.swiper_btn{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 80px;
+}
+/*----------swiper_1----------*/
+/*----------swiper_2----------*/
+
+.swiper_main_conyainer_2{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.swiper_btn_2{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1290px;  
+    margin: 0 auto;
+}
+.swiper_btn_coctainer_2{
+    margin-top: -280px;
+}
+/*----------swiper_2----------*/
