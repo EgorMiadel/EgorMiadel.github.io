@@ -1,0 +1,221 @@
+.main_wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.porter_elemnt_piter_container,
+.porten_text_container{
+    display: flex;
+    justify-content: center;
+}
+.porter_elemnt_piter{
+    width: 320px;
+    height: 318px;
+    border: 4px solid #ffff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.porten_logo{
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 64px;
+    border-bottom: 1px solid white;
+    padding: 0 0 4px 0;
+}
+.porter_piter{
+    text-transform: uppercase;
+    font-size: 22px;
+    color: white;
+    margin-top: 7px;
+    letter-spacing: 3px;
+}
+.porten_text{
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 750px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 80px;
+}
+.porten{
+    height: 805px;
+    background: url(../img/main_img/Rectangle\ 3.jpg) 50%/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.season_20_21{
+    display: flex;
+}
+.season_20_21_container_1{
+    flex: 0 1 1040px
+}
+.season_20_21_container_2{
+    flex: 0 1 880px;
+}
+.season_20_21_container_1_text{
+    font-family: 'Playfair Display',sans-serif;
+    font-size: 36px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.season_20_21_container_1_line{
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+.season_20_21_container_1_line span{
+    display: inline-block;
+    background-color: white;
+    height: 1px;
+    width: 120px;
+}
+.season_20_21_container_1_clock{
+    display: flex;
+    justify-content: center;
+}
+.season_20_21_container_1_img_clock{
+    margin: 0 35px 0 35px;
+}
+.container_1_link{
+    margin-top: 20px;
+    line-height: 22px;
+}
+.container_1_link a{
+    color: white;
+    font-family: 'Playfair Display'sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.container_1_link a:hover{
+    color: grey;
+    transition-duration: 0.2s;
+}
+.season_20_21_container_1_content{
+    margin-top: 90px;
+}
+.season_20_21_container_2_new_colection_text{
+    font-family: 'Playfair Display',sans-serif;
+    font-size: 36px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    line-height: 50px;
+}
+.season_20_21_container_2_new_colection_line{
+    margin: 30px 0 40px 0;
+    display: flex;
+    justify-content: center;
+}
+.season_20_21_container_2_new_colection_line span{
+    display: block;
+    background-color: white;
+    height: 1px;
+    width: 120px;
+}
+.new_collection_button{
+    display: flex;
+    justify-content: center;
+}
+.season_20_21_container_2_new_colection{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    margin: 0 50% 0 50%;
+    transform: translate(-50%, -50%);
+}
+.season_20_21_container_2_content{
+    position: relative;
+}
+.collection_2018{
+    display: flex;
+}
+.collection_2018_container_1{
+    flex: 0 1 880px;
+}
+.collection_2018_container_2{
+    flex: 0 1 1040px;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.collection_2018_container_2_content{
+    max-width: 480px;
+}
+.collection_2018_container_2_content_text_1{
+    color: white;
+    font-family: 'Playfair Display',sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+.collection_2018_container_2_content_text_2{
+    text-align: center;
+    line-height: 21px;
+}
+.collection_2018_container_2_content_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.new_arrivals_text{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Playfair Display',sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center; 
+}
+.new_arrivals{
+    margin-top: 100px;
+}
+.new_arrivals_line{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 50px 0;
+}
+.new_arrivals_line span{
+    display: block;
+    background-color: white;
+    height: 1px;
+    width: 120px;
+}
+.new_arrivals_container_grid_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(215px,1fr));
+    gap: 20px;
+}
+.grid_clock_text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.grid_clock_text a{
+    color: white;
+}
+.grid_clock_text a:hover{
+    color: grey;
+    transition-duration: 0.2s;
+}
+.our_brands{
+    background-color: #0F0F0F;
+    height: 362px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+}
+.our_brands_content_header{
+    font-family: 'Playfair Display',sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;    
+    color: white;
+    text-transform: uppercase;
+}
+.our_brands_content_logo{
+    display: flex;
+}

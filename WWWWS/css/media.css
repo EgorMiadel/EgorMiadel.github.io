@@ -1,0 +1,229 @@
+/*----------max-width(1142px)---------*/
+@media(max-width:1142px){
+    /*---------main---------*/
+    .season_20_21{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .season_20_21_container_2{
+        margin-top: 50px;
+        flex: 0 1 100%;
+    }
+    .season_20_21_container_1_clock{
+        justify-content: center;
+    }
+    .collection_2018{
+        flex-wrap: wrap;
+    }
+    .collection_2018_container_1{
+        flex: 0 1 100%;
+    }
+    .collection_2018_container_2{
+        flex: 0 1 100%;
+    }
+    .new_arrivals{
+        margin-top: 50px;
+    }
+    /*---------main---------*/
+    /*---------footer---------*/
+    .footer{
+        height: 100%;
+        padding: 0 0 20px 0;
+    }
+    .footer_content{
+        flex-wrap: wrap;
+    }
+    .footer_content_container_1,
+    .footer_content_container_2,
+    .footer_content_container_3{
+        flex: 0 1 100%;
+        margin-top: 40px;
+    }
+    /*---------footer---------*/
+}
+/*----------max-width(1142px)---------*/
+
+/*----------max-width(670px)---------*/
+@media(max-width:670px){
+    .lock{
+        overflow: hidden;
+    }
+    main{
+        margin-top: 89px;
+    }
+    /*-----header-----*/
+    .header_top_info_link_2 p{
+        display: none;
+    }
+    .header_top{
+        height: 34px;
+    }
+    .header_bottom_content{
+        height: 55px;
+    }
+    .header{
+        height: 89px;
+    }
+     /*-----burger-----*/
+    .search_box{
+         display: none;
+     }
+    .search_box_mbile{
+         display: block;
+     }
+     .header_burger{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 30px;
+        z-index: 20;
+    }
+    .header_bottob_logo,
+    .header_top_info_link_1,
+    .header_top_info_link_2,
+    .header_top_check_link_2,
+    .header_top_check_link_1{
+        z-index: 20;
+    }
+    .header_burger span{
+        position: absolute;
+        background-color: white;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 13px;
+        transition-duration: 0.3s;
+    }
+    .header_burger:before,
+    .header_burger:after{
+        content: '';
+        background-color: white;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition-duration: 0.3s;
+    }
+    .header_burger:before{
+        top: 0;
+    }
+    .header_burger:after{
+        bottom: 0;
+    }
+    .header_burger.active::before{
+        transform: rotate(45deg);
+        top: 14px;
+    }
+    .header_burger.active::after{
+        transform: rotate(-45deg);
+        bottom: 14px;
+    }
+    .header_burger.active span{
+        transform: scale(0);
+    }
+    .header_menu{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        background-color: black;
+        width: 100%;
+        height: 100%;
+    }
+    .header_menu.active{
+        left: 0;
+        transition-duration: 0.2s;
+    }
+    .header_list{
+        display: block;
+        margin: 85px 0 0 -25px;
+    }
+    .header_list li{
+        margin-top: 15px;
+    }
+    .header_list :last-child{
+        margin-top: 5px;
+    }
+    /*search_box_mobile*/
+    .search_box_mbile_input{
+        width: 0;
+    }
+    .search_box_mbile:hover> .search_box_mbile_input{
+        width: 150px;
+        transition-duration: 0.2s;
+        padding-left: 5px;
+    }
+    /*search_box_mobile*/
+    /*-----burger-----*/
+    /*-----header-----*/
+
+    /*----------main----------*/
+    .porten{
+        height: 705px;
+    }
+    .container_1_link a{
+        font-size: 14px;
+    }
+    .season_20_21_container_1_img_clock{
+        margin: 0 15px 0 15px;
+    }
+    .season_20_21_container_2_new_colection{
+        top: 30%;
+    }
+    .season_20_21_container_1_content{
+        margin-top: 60px;
+    }
+    .season_20_21_container_1_line{
+        margin: 30px 0 30px 0;
+    }
+    .season_20_21_container_2_new_colection_line{
+        margin: 20px 0 30px 0;
+    }
+    .our_brands_content_logo{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .our_brands{
+        height: 100%;
+        padding: 40px 0 40px 0;
+        margin-top: 60px;
+    }
+    .season_20_21_container_1_img_clock{
+        width: 100%;
+    }
+    /*----------main----------*/
+    /*---------footer---------*/
+    .container_3_form_btn span{
+        width: 120px;
+    }
+    /*---------footer---------*/
+
+
+}
+/*----------max-width(670px)---------*/
+
+/*----------max-width(480px)---------*/
+@media(max-width:480px){
+    .header_top_info_link_2,
+    .header_top_check_link_2{
+        font-size: 12px;
+    }
+    .porter_elemnt_piter{
+        width: 290px;
+    }
+    .season_20_21_container_1_clock{
+        flex-wrap: wrap;
+    }
+    .season_20_21_container_1_img_clock{
+        margin-top: 30px;
+    }
+    .container_1_link a{
+        font-size: 18px;
+    }
+    .collection_2018_container_2{
+        margin-top: 40px;
+    }
+    .collection_2018_container_2_content_text_2{
+        padding: 0 10px 0 10px;
+    }
+}
+/*----------max-width(480px)---------*/
